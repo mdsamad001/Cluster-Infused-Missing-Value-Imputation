@@ -3,10 +3,12 @@
 ## Usage
 Please run below commands to prepare your enviroment:
 
-`pip install numpy==1.19.5`
-`pip install pandas==1.3.3`
-`pip install scikit-learn=0.24.2`
-`pip install -e micegradient`
+```
+pip install numpy==1.19.5
+pip install pandas==1.3.3
+pip install scikit-learn=0.24.2
+pip install -e micegradient
+```
 
 You can run the mice.ipynb jupyter notebook file and check the results for the dummy_dataset.
 When using your own dataset, make sure to remove all non-numerical data columns before proceeding.
